@@ -10,4 +10,4 @@ class house:
       return price_per_sqft      
 
 houseSearch = house(125000, 900, 3) 
-print(houseSearch.price_per_sqft())
+houseSearch.price_per_sqft()
